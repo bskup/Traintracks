@@ -37,6 +37,16 @@
         </activity>
         <activity android:name=".ClientsActivity">
         </activity>
+        <activity android:name=".AddClientActivity">
+        </activity>
+        <activity android:name=".AddAppointmentActivity">
+        </activity>
+        <activity android:name=".SignCompleteActivity">
+        </activity>
+        <activity android:name=".RecordsActivity">
+        </activity>
+        <activity android:name=".ReceiptActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,785 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.fitconductors.traintracks.RecordsActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linearLayout3">
+
+        <fragment
+            tools:layout="@layout/fragment_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:name="android.support.v7.app.AppCompatDialogFragment"
+            android:id="@+id/fragment8"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="false"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Records"
+            android:id="@+id/textView102"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView103"
+            android:textSize="16sp"
+            android:textIsSelectable="false"
+            android:text="Usage history and transactions"
+            android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView31"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView104"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView105"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView106"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView32"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView107"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView108"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView109"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView33"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView110"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView111"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView112"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView34"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView113"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView114"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView115"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView35"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView116"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView117"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView118"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView36"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView119"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView120"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView121"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView37"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView122"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView123"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView124"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView38"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView125"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView126"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView127"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView39"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView128"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView129"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView130"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView40"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView131"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView132"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView133"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView41"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView134"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView135"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView136"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView42"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView137"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView138"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView139"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView43"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView140"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView141"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView142"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView44"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView143"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView144"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView145"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView45"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView146"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView147"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView148"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView46"
+                android:minWidth="20dp"
+                android:minHeight="20dp"
+                android:background="@color/colorPrimary"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView149"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight=".2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:id="@+id/textView150"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Timestamp"
+                android:id="@+id/textView151"
+                android:textSize="16sp"
+                android:textIsSelectable="false"
+                android:layout_gravity="center_vertical"
+                android:layout_weight=".2"
+                android:gravity="right"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
